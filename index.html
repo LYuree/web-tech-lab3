@@ -4,9 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>LYuree | Портфолио</title>
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+  <link rel="preload" href="css/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="css/style.css"></noscript>
+  <link rel="preload" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"></noscript>
   <link rel="stylesheet" href="/css/print.css" media="print">
 
 </head>
@@ -23,7 +24,7 @@
           <h2><a href="#projects" class="btn">Мои работы</a></h2>
         </div>
         <div class="hero-image">
-          <img src="assets/images/660-45deg.png" alt="Cosmic Illustration">
+          <img src="assets/images/660-45deg-cropped_optimized.webp" width="400" height="400" alt="Space rocket">
         </div>
       </div>
     </section>
@@ -98,7 +99,7 @@
       <h2>Свяжитесь со мной</h2>
       <div class="contact-content">
         <div class="contact-image">
-          <img src="assets/images/space_mail2.png" alt="Contact Illustration">
+          <img src="assets/images/space_mail2_optimized.webp" width="288" height="288" alt="Space postman">
         </div>
         <form class="contact-form">
           <input type="text" placeholder="Имя" required>
@@ -111,7 +112,7 @@
   </footer>
 
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js" async></script>
   <script src="/js/script.js"></script>
   <script src="/js/slider.js"></script>
 </body>

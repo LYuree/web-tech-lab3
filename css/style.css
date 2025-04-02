@@ -16,6 +16,10 @@
     font-style: normal;
 }
 
+.test-class {
+  font-weight: bold;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -73,7 +77,6 @@ body {
     align-items: center;
   }
 
-  .social-links,
   .nav-links {
     list-style: none;
   }
@@ -83,15 +86,6 @@ body {
     gap: 20px;
   }
 
-  
-  .social-links {
-    display: flex;
-    gap: 15px;
-  }
-  
-  .social-links a {
-    font-size: 1.2rem;
-  }
   
 
   
@@ -116,7 +110,7 @@ body {
   }
   
   .hero-image img {
-    width: 80%;
+    width: 100%;
     border-radius: 10px;
     animation: updown 2s infinite;
     transform: rotate(45deg);
@@ -251,7 +245,6 @@ body {
   }
   
   .contact-image img {
-    width: 100%;
     max-width: 400px;
     border-radius: 10px;
   }
