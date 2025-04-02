@@ -72,11 +72,17 @@ body {
     justify-self: flex-end;
     align-items: center;
   }
+
+  .social-links,
   .nav-links {
     list-style: none;
+  }
+
+  .nav-links {
     display: flex;
     gap: 20px;
   }
+
   
   .social-links {
     display: flex;
