@@ -13,7 +13,11 @@
 <body>
     <div data-include="navbar"></div>
     <main class="about-main">
-        <img src="/assets/images/meh_optimized.jpg" width="300" height="400" class="about-photo" alt="MEh">
+        <picture>
+            <source srcset="/assets/images/meh_optimized-300.jpg" media="(min-width: 600px)" width="300" height="400" alt="Фото автора"/>
+            <img src="/assets/images/meh_optimized-200.jpg" width="200" height="267" alt="Фото автора" class="about-photo"/>
+          </picture>
+        <!-- <img src="/assets/images/meh_optimized.jpg" width="300" height="400" class="about-photo" alt="MEh"> -->
         <section class="about-bio">
             <h1 class="about-bio-caption">Обо мне | LYuree</h1>
             <article class="about-bio-main-text">
