@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="/css/print.css" media="print" />
   </head>
   <body>
-    <div data-include="navbar"></div>
+    <header data-include="navbar"></header>
     <main class="main">
       <section id="main" class="hero">
         <div class="container">
@@ -79,7 +79,6 @@
           <h2>Мои проекты</h2>
           <div class="projects-grid">
             <div class="project-card">
-              <!-- <img src="assets/images/proftester.png" alt="Project 1"> -->
               <h3>Proftester 🧭</h3>
               <p>
                 Proftester.ru - Один из старейших ресурсов рунета по
@@ -93,7 +92,6 @@
               <a href="https://proftester.ru" class="btn">Увидеть проект</a>
             </div>
             <div class="project-card">
-              <!-- <img src="assets/images/novel_town_logo.jpg" alt="Project 2"> -->
               <h3>The Novel Town 📕</h3>
               <p>Сайт интернет-магазина графических новелл и комиксов.</p>
               <p><strong>Frontend:</strong> React, TS, TailwindCSS.</p>
@@ -101,7 +99,6 @@
               <a href="#" class="btn">Увидеть проект</a>
             </div>
             <div class="project-card">
-              <!-- <img src="assets/images/holmes2.png" alt="Project 3"> -->
               <h3>Sherlock Notes 📝</h3>
               <p>
                 Веб-приложение с полноценным CRUD-API для ведения коллекции
@@ -129,9 +126,33 @@
             />
           </div>
           <form class="contact-form">
-            <input type="text" placeholder="Имя" required />
-            <input type="email" placeholder="Email" required />
-            <textarea placeholder="Сообщение" rows="5" required></textarea>
+            <label for="name">Имя</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Имя"
+              required
+            />
+
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Email"
+              required
+            />
+
+            <label for="message">Сообщение</label>
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Сообщение"
+              rows="5"
+              required
+            ></textarea>
+
             <button type="submit" class="btn">Отправить сообщение</button>
           </form>
         </div>

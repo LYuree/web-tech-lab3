@@ -17,16 +17,37 @@
     <title>LYuree | Обо мне</title>
   </head>
   <body>
-    <div data-include="navbar"></div>
+    <header data-include="navbar"></header>
     <main class="about-main">
       <img
-        src="/assets/images/meh_optimized.jpg"
+        src="/assets/images/meh_optimized-300.jpg"
+        srcset="
+          /assets/images/meh_optimized-300.jpg 300w,
+          /assets/images/meh_optimized-300.jpg 200w
+        "
+        sizes="(min-width: 600px) 300px, 200px"
+        alt="Description of the image"
         class="about-photo"
-        alt="MEh"
       />
-      <div class="about-bio">
+      <!-- <picture>
+        <source
+          srcset="/assets/images/meh_optimized-300.jpg"
+          media="(min-width: 600px)"
+          width="300"
+          height="400"
+          alt="Фото автора"
+        />
+        <img
+          src="/assets/images/meh_optimized-300.jpg"
+          width="200"
+          height="267"
+          alt="Фото автора"
+          class="about-photo"
+        />
+      </picture> -->
+      <section class="about-bio">
         <h1 class="about-bio-caption">Обо мне | LYuree</h1>
-        <div class="about-bio-main-text">
+        <article class="about-bio-main-text">
           <p>
             Разнообразный и богатый опыт укрепление и развитие структуры
             способствует подготовки и реализации направлений прогрессивного
@@ -57,8 +78,8 @@
             по формированию позиции в значительной степени обуславливает
             создание систем массового участия.
           </p>
-        </div>
-      </div>
+        </article>
+      </section>
     </main>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="/js/script.js"></script>
