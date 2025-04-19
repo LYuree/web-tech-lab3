@@ -1,11 +1,14 @@
 /* Print Styles */
-@media print {
     /* General Reset */
     body {
         background: white !important;
         color: black !important;
         /* font-size: 12pt; */
     }
+
+    p {
+        font-family: 'Times New Roman', Times, serif;
+      }
 
     /* Hide unnecessary elements */
     .navbar, .social-links, .hero-image, .contact-image, .slick-arrow, .slick-dots, .btn, .contact-form, .hero .btn, .projects .btn, .contact .btn, .contact {
@@ -20,13 +23,22 @@
         padding: 0;
     }
 
+    /* .hero-text h1, p {
+        font-size: 3rem;
+      }
+      
+      .hero-text h1 {
+        margin-bottom: 20px;
+      } */
+    
+
     .hero .container, .about-main {
         /* flex-direction: column; */
         text-align: left;
     }
 
     .hero .container {
-        margin-top: 3rem;
+        margin-top: 24pt;
     }
 
     .hero-text, .about-bio {
@@ -35,23 +47,28 @@
 
     .hero-text h1 {
         /* font-size: 24pt; */
-        margin-bottom: 10pt;
+        /* margin-bottom: 10pt; */
         animation: none;
         border-right: none;
     }
 
-    .hero-text h2 {
+    /* .hero-text h2 {
         font-size: 18pt;
         margin-bottom: 10pt;
-    }
+    } */
 
-    .hero-text h1, h2 {
+    .hero-text h1 {
         text-align: center;
     }
 
     .hero-text p {
-        font-size: 12pt;
-        margin-bottom: 10pt;
+        /* font-size: 12pt; */
+        /* margin-bottom: 10pt; */
+        text-indent: 3em;
+    }
+
+    .hero-text h1, p {
+        font-size: 36pt;
     }
 
     .skills-slider{
@@ -177,5 +194,3 @@
     .slick-dots {
         display: none !important;
     }
-
-}
