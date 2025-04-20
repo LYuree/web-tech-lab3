@@ -38,7 +38,7 @@
     }
 
     .hero .container {
-        margin-top: 24pt;
+        /* margin-top: 24pt; */
     }
 
     .hero-text, .about-bio {
@@ -62,13 +62,13 @@
     }
 
     .hero-text p {
-        /* font-size: 12pt; */
+        font-size: 14pt;
         /* margin-bottom: 10pt; */
         text-indent: 3em;
     }
 
-    .hero-text h1, p {
-        font-size: 36pt;
+    .hero-text h1, span {
+        font-size: 16pt !important;
     }
 
     .skills-slider{
@@ -83,8 +83,12 @@
     }
 
     .skill span {
-        font-size: 18pt;
+        font-size: 14pt;
     }
+/* 
+    .skill p {
+        font-size: 18pt;
+    } */
 
     .project-card img {
         /* display: none; */
@@ -92,12 +96,12 @@
     }
 
     .project-card h3 {
-        font-size: 14pt;
+        font-size: 15pt;
         margin-bottom: 5pt;
     }
 
     .project-card p {
-        font-size: 12pt;
+        font-size: 14pt;
         margin-bottom: 5pt;
     }
 
@@ -153,8 +157,13 @@
         page-break-after: avoid;
     }
 
+    .skills h2 {
+        margin-top: 10pt;
+        margin-bottom: 0 !important;
+    }
+
     .contact {
-        page-break-before: always;
+        /* page-break-before: always; */
     }
 
     /* ============ */
@@ -187,6 +196,7 @@
         width: 100% !important;
         margin: 0 0 0 0 !important;
         page-break-inside: avoid;
+        page-break-before: avoid;
     }
 
     /* Hide Slick arrows and dots */

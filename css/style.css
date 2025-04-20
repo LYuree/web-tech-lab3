@@ -102,7 +102,7 @@ div.links {
 }
 
 .hero-text h1 span {
-  font-size: 1.2rem;
+  /* font-size: 1.2rem; */
   display: block;
 }
 
@@ -172,7 +172,7 @@ h1.about-bio-caption {
 
 .skills h2 {
   text-align: center;
-  margin-bottom: 30px;
+  /* margin-bottom: 15px; */
 }
 
 .skills-slider {
@@ -200,7 +200,7 @@ h1.about-bio-caption {
 
 .projects h2 {
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .projects-grid {
@@ -315,24 +315,6 @@ h1.about-bio-caption {
   }
 }
 
-@keyframes typewriter {
-  from {
-    width: 0%;
-  }
-  to {
-    width: 100%;
-  }
-}
-
-@keyframes blink {
-  from {
-    border-color: white;
-  }
-  to {
-    border-color: transparent;
-  }
-}
-
 @keyframes updown {
   0% {
     transform: translate(-20px, 20px);
@@ -351,9 +333,6 @@ h1.about-bio-caption {
   }
 }
 
-:root {
-  --typewriter-steps: 60;
-}
 
 /* .hero-text h1 {
   white-space: nowrap;
@@ -365,10 +344,7 @@ h1.about-bio-caption {
 .hero-text span.hero-text-typewriting {
   white-space: nowrap;
   overflow: hidden;
-  animation: typewriter 2s steps(60) infinite alternate,
-    blink 800ms steps(60) infinite normal;
-  border-right: 5px solid white;
-  font-size: 3rem !important;
+  font-size: 3rem;
 }
 
 /* General styling for the slider container */
