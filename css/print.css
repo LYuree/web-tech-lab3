@@ -107,6 +107,12 @@
 
     .about-main {
         display: block;
+        box-shadow: none;
+        margin: auto;
+    }
+
+    .about-main img {
+        margin: 10pt !important;
     }
 
     .about-bio-caption {
